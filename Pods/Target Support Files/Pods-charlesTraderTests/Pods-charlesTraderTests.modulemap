@@ -1,0 +1,6 @@
+framework module Pods_charlesTraderTests {
+  umbrella header "Pods-charlesTraderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
