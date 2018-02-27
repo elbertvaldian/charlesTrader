@@ -16,7 +16,7 @@ protocol Endpoint {
 
 enum Endpoints {
 
-    enum Pairs: Endpoint {
+    enum PairList: Endpoint {
         case fetch
 
         public var path: String {

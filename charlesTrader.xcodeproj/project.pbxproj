@@ -18,9 +18,10 @@
 		8A1B3FAB203D16A0007AA7CF /* charlesTraderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B3FAA203D16A0007AA7CF /* charlesTraderTests.swift */; };
 		8A1B3FB6203D16A0007AA7CF /* charlesTraderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B3FB5203D16A0007AA7CF /* charlesTraderUITests.swift */; };
 		B58F37D13BEE7C5561895F67 /* Pods_charlesTraderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DAF47CFF0E22E60672BB2A5 /* Pods_charlesTraderTests.framework */; };
+		DF71832683EF6696B47DCE95 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = DF718C0E1A899F3236BA6931 /* Classes */; };
 		DF7184BC24DB8A26FA812F29 /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF718E9F7123A3384D5D7819 /* Pair.swift */; };
-		DF7185FAF242FC8F44C9C7B1 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = DF7182DCDBDFB63CEE708E54 /* Classes */; };
 		DF7189CA1A186AABEB4878C8 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF718D8CACDA9549D317F4F0 /* EndPoints.swift */; };
+		DF7189F473A9F3B709F908F3 /* Protocols in Resources */ = {isa = PBXBuildFile; fileRef = DF718FB5D79EA78EA2D000EC /* Protocols */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +63,10 @@
 		8A1B3FB7203D16A0007AA7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB033CEC2085B611CC11CA3C /* Pods_charlesTraderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_charlesTraderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77D713A51237DDCCBA58365 /* Pods-charlesTrader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-charlesTrader.release.xcconfig"; path = "Pods/Target Support Files/Pods-charlesTrader/Pods-charlesTrader.release.xcconfig"; sourceTree = "<group>"; };
-		DF7182DCDBDFB63CEE708E54 /* Classes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
+		DF718C0E1A899F3236BA6931 /* Classes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		DF718D8CACDA9549D317F4F0 /* EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 		DF718E9F7123A3384D5D7819 /* Pair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pair.swift; sourceTree = "<group>"; };
+		DF718FB5D79EA78EA2D000EC /* Protocols */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Protocols; path = Classes/Modules/pairList/Protocols; sourceTree = "<group>"; };
 		E8E9DB579872755B6DB48AAD /* Pods-charlesTrader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-charlesTrader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-charlesTrader/Pods-charlesTrader.debug.xcconfig"; sourceTree = "<group>"; };
 		F9066C8A1370EB31A2B3D575 /* Pods_charlesTrader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_charlesTrader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -154,7 +156,8 @@
 				8A1B3F99203D16A0007AA7CF /* charlesTrader.xcdatamodeld */,
 				DF718B0F42F3A431ED16E956 /* Common */,
 				DF7186425B5DF9CAB00EB2E9 /* Entities */,
-				DF7182DCDBDFB63CEE708E54 /* Classes */,
+				DF718FB5D79EA78EA2D000EC /* Protocols */,
+				DF718C0E1A899F3236BA6931 /* Classes */,
 			);
 			path = charlesTrader;
 			sourceTree = "<group>";
@@ -312,7 +315,8 @@
 				8A1B3FA0203D16A0007AA7CF /* LaunchScreen.storyboard in Resources */,
 				8A1B3F9D203D16A0007AA7CF /* Assets.xcassets in Resources */,
 				8A1B3F98203D16A0007AA7CF /* Main.storyboard in Resources */,
-				DF7185FAF242FC8F44C9C7B1 /* Classes in Resources */,
+				DF7189F473A9F3B709F908F3 /* Protocols in Resources */,
+				DF71832683EF6696B47DCE95 /* Classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

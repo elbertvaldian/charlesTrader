@@ -1,5 +1,5 @@
 //
-//  pairListViewController.swift
+//  CTPairListViewController.swift
 //  charlesTrader
 //
 //  Created by Elbert Valdian on 27/02/18.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class pairListViewController: UIViewController, pairListViewInterface
+class CTPairListViewController: UIViewController, CTPairListViewInterface
 {
-    var eventHandler: pairListModuleInterface?
+    var eventHandler: CTPairListModuleInterface?
 
     // MARK: - View lifecycle
 
@@ -29,7 +29,7 @@ class pairListViewController: UIViewController, pairListViewInterface
         super.viewDidAppear(animated)
     }
 
-    // MARK: - pairListViewInterface methods
+    // MARK: - CTPairListViewInterface methods
 
     // *** implement view_interface methods here
 
